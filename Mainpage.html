@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Aesthetic Story</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #000000;
+            color: #d3d3d3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #fff0e1;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .door-button {
+            width: 120px;
+            height: 240px;
+            border: 5px solid #e9c85c9a;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            background-color: #fff;
+        }
+
+        .door-button:hover {
+            transform: scale(1.1);
+        }
+
+        .door-button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #fff1e3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select your door</h1>
+    <div class="container">
+        <a href="door 1.php" class="door-button">
+            <img src="door1.jpg" alt="Door 1">
+        </a>
+        <a href="door 2.php" class="door-button">
+            <img src="door2.jpg" alt="Door 2">
+        </a>
+        <a href="door 3.php" class="door-button">
+            <img src="door3.jpg" alt="Door 3">
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Maheerah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
